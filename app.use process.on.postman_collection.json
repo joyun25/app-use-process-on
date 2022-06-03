@@ -21,14 +21,13 @@
 					}
 				},
 				"url": {
-					"raw": "127.0.0.1:3000/posts",
+					"raw": "https://agile-refuge-66090.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"agile-refuge-66090",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"posts"
 					]
@@ -42,14 +41,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3000/posts",
+					"raw": "https://agile-refuge-66090.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"agile-refuge-66090",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"posts"
 					]
@@ -63,14 +61,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3000/posts?timeSort=asc",
+					"raw": "https://agile-refuge-66090.herokuapp.com/posts?timeSort=asc",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"agile-refuge-66090",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"posts"
 					],
@@ -90,14 +87,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3000/posts?timeSort=asc&q=2",
+					"raw": "https://agile-refuge-66090.herokuapp.com/posts?timeSort=asc&q=2",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"agile-refuge-66090",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"posts"
 					],
@@ -121,14 +117,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3000/posts",
+					"raw": "https://agile-refuge-66090.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"agile-refuge-66090",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"posts"
 					]
@@ -142,14 +137,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3000/posts/629220065c437bba79d1524e",
+					"raw": "https://agile-refuge-66090.herokuapp.com/posts/629220065c437bba79d1524e",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"agile-refuge-66090",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"posts",
 						"629220065c437bba79d1524e"
@@ -173,14 +167,13 @@
 					}
 				},
 				"url": {
-					"raw": "127.0.0.1:3000/posts/629220065c437bba79d1524e",
+					"raw": "https://agile-refuge-66090.herokuapp.com/posts/629220065c437bba79d1524e",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"agile-refuge-66090",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"posts",
 						"629220065c437bba79d1524e"
