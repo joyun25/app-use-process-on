@@ -21,8 +21,12 @@ const posts = {
     }
   }),
   deleteAllPosts: handleResponse.errorAsync(async (req, res, next) => {
-    await Post.deleteMany({});
-    handleResponse.success(res, "刪除成功", Post);
+    if (req.originalUrl === "/posts/") {
+      handleResponse.errorNew(404, "無此網站路由", next);
+    }else{
+      await Post.deleteMany({});
+      handleResponse.success(res, "刪除成功", Post);
+    }
   }),
   deleteOnePost: handleResponse.errorAsync(async (req, res, next) => {
     const id = req.params.id;
