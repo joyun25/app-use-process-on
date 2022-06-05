@@ -43,7 +43,7 @@ const posts = {
     if (await Post.findById(`${id}`) !== null){
       if(body.content){
         const updatePost = await Post.findByIdAndUpdate(`${id}`, body, {new: true});
-        handleResponse.success(res, updatePost);
+        handleResponse.success(res, "資料修改成功", updatePost);
       }else{
         handleResponse.errorNew(400, "內文資料未填", next);
       }
